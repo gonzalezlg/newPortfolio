@@ -1,0 +1,8 @@
+/*En esta hoja de estilos se van a agregar los esilos aplicados a nivel general en el sitio*/
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+#container{
+    height: 100vh;
+  }

@@ -1,0 +1,46 @@
+.containerSkills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.skill{
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imgSkill {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+
+/* ********MEDIA QUERYS PARA MEDIDAS DE DESKTOP, SE TOMA COMO MEDIDA 1200PX DE ANCHO*/
+
+@media only screen and (min-width: 1200px) {
+
+    #skills{
+        max-width: 70%;        
+        margin-left: 30%;
+    }
+
+    .skill{
+        width: 15%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .imgSkill {
+        width: 90px;
+        height: 90px;
+        border-radius: 20px;
+    }
+    
+  }

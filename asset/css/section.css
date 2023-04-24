@@ -1,0 +1,32 @@
+section{
+    padding: 20px 10px;
+}
+
+h3 {
+    color: rgb(27, 115, 216);
+    font-size: 2rem;
+    margin:10px 0;
+}
+
+.hrSection{
+    border: none;
+    border-top: 2px solid rgb(27, 115, 216);
+    width:80%;
+    margin: 0;
+    margin-bottom: 30px;  
+}
+
+.even {
+    background-image: linear-gradient( rgb(235, 234, 234), white);
+}
+
+/* ********MEDIA QUERYS PARA MEDIDAS DE DESKTOP, SE TOMA COMO MEDIDA 1200PX DE ANCHO ********/
+
+@media only screen and (min-width: 1200px) {
+
+    section{
+        padding: 20px 40px;
+    }
+    
+    
+  }

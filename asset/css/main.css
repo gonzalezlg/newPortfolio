@@ -1,4 +1,9 @@
 /*En esta hoja de estilos se van a agregar los esilos aplicados a nivel general en el sitio*/
+:root{
+  /* --color-primary: rgb(27, 115, 216); */
+  --color-primary: rgb(6, 44, 87);
+}
+
 body{
   font-family: "Open Sans", sans-serif;
 }

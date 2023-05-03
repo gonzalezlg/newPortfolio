@@ -14,7 +14,7 @@ if(menu.style.display === 'none') {
     
 } else {
     menu.style.display = 'none';
-    btnMenu.style.background = 'rgb(27, 115, 216)';
+    btnMenu.style.background = 'var(--color-primary)';
     
 }
 })

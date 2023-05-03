@@ -18,6 +18,7 @@ h3 {
 
 .even {
     background-image: linear-gradient( rgb(235, 234, 234), white);
+    /* background-image: linear-gradient( var(--color-primary), white); */
 }
 
 /* ********MEDIA QUERYS PARA MEDIDAS DE DESKTOP, SE TOMA COMO MEDIDA 1200PX DE ANCHO ********/

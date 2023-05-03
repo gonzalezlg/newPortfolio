@@ -19,6 +19,12 @@
     width: 80px;
     height: 80px;
     border-radius: 20px;
+    transition: filter 0.3s;
+}
+
+.skill:hover .imgSkill{
+    filter: drop-shadow(8px 8px 4px var(--color-primary));
+    cursor: pointer;
 }
 
 

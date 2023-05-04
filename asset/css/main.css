@@ -2,10 +2,15 @@
 :root{
   /* --color-primary: rgb(27, 115, 216); */
   --color-primary: rgb(6, 44, 87);
+  --white-fonts: rgb(236, 236, 236);
 }
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body{
   font-family: "Open Sans", sans-serif;
+  
 }
 
 #container{

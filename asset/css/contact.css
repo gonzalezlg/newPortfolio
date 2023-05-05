@@ -47,9 +47,19 @@
     padding: 10px;
     margin-top: 30px;
     font-weight: bold;
-    background-color: rgb(27, 115, 216);
+    background-color: var(--color-primary);
+    color: var(--white-fonts);
     border: none;
     border-radius: 10px;
+    transition: border-radius ease .9s, background ease .9s, border ease .9s; 
+}
+
+.formulario form button:hover{  
+        background: rgb(6, 44, 87, 0.8);
+        color: var(--color-primary);
+        border: 2px solid var(--color-primary);
+        border-radius: 0px;
+        cursor: pointer;
 }
 
 

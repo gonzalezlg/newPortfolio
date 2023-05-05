@@ -73,13 +73,63 @@
 
 
 
+
+
+
+
+/* ******************************************************* */
+
+.resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid var(--color-primary);
+  position: relative;
+}
+
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 14px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -10px;
+  top: 0;
+  background: #fff;
+  border: 2px solid var(--color-primary);
+}
+
+
+
 /* ********MEDIA QUERYS PARA MEDIDAS DE DESKTOP, SE TOMA COMO MEDIDA 1200PX DE ANCHO*/
 
 @media only screen and (min-width: 1200px) {
 
   #experiences{
       max-width: 70%;
-      height: 40%;
+      /* height: 40%; */
       margin-left: 30%;
   }
   

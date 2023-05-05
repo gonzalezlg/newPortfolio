@@ -8,9 +8,13 @@
     font-size: 1rem;
 }
 
+.parrafo p {
+    margin-bottom: 10px;
+}
+
 .fotoAbout{
-    margin: 50px 0;
-    width: 100%;
+    margin: 10px 0;
+    width: 90%;
 }
 
 .fotoAbout img {
@@ -44,6 +48,10 @@
             
             
 }
+
+    .parrafo{
+        margin-top: 20px;
+    }
 
     .fotoAbout{
         margin: 0;

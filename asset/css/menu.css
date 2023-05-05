@@ -1,6 +1,8 @@
 #menu{
     /* background:  rgb(27, 115, 216); */
     background-color: var(--color-primary);
+    
+    
     width: 72%;
     height: 100vh;
     display: none;
@@ -17,6 +19,12 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-top: 50px;
+}
+
+#menu ul {
+    margin-left: 5%;
+    text-align: center;
 }
 
 #menu ul a {
@@ -52,12 +60,13 @@
 
 #btncv {
     width: 60%;
-    background: rgba(14, 54, 100, 0.5);
-    color: white;
+    /* background: rgba(14, 54, 100, 0.5); */
+    background-color: var(--color-primary);
+    color: var(--white-fonts);
     font-weight: bold;
     padding: 10px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 35%;
     margin-left: 20%;
     border: 1px solid white;
     border-radius: 10px;
@@ -103,7 +112,7 @@
     }
 
     #menu ul{
-        margin-left: 0;
+        margin-left: 10%;
         margin-right: 8%;
         text-align: center;
     }

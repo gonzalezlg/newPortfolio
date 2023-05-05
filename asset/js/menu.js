@@ -11,6 +11,7 @@ if(menu.style.display === 'none') {
     btnMenu.style.background = 'white';
     btnMenu.style.border = '2px solid rgb(27, 115, 216)';
     menu.classList.add('menu');
+    /* document.querySelector('#container').style.overflow = 'hidden'; */
     
 } else {
     menu.style.display = 'none';
@@ -29,6 +30,7 @@ botonesMenu.forEach( enlace => {
         enlace.addEventListener ('click', ()=> {
             menu.style.display = 'none';
             btnMenu.style.background = 'rgb(27, 115, 216)';
+            /* document.querySelector('#container').style.overflow = 'auto'; */
         })
     }
 });

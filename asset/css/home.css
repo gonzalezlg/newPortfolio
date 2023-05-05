@@ -37,6 +37,17 @@
     font-size: 1.3rem;
 }
 
+.textHeader h1{
+    margin-bottom: 50px;
+}
+
+.auto-type{
+    background-color: var(--color-primary);
+    color: rgb(27, 115, 216);
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: underline;
+}
 
 #btnMenu{
     position: fixed;

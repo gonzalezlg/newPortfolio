@@ -20,6 +20,15 @@ async function handleSubmit (event){
 
     if (response.ok) { // Se pone .ok, porque el response tiene un campo donde viene tru o false
         this.reset();// Para limpiar el formulario
-        alert('Mensaje enviado ok');
+        /* alert('Mensaje enviado ok'); */
+
+        //Librerio para que aparezca pop up agredeciendo el mensaje
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Gracias por el mensaje.',
+            showConfirmButton: false,
+            timer: 2500
+          })
     }
 }

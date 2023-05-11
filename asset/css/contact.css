@@ -57,7 +57,7 @@
 .formulario form button:hover{  
         background: rgb(6, 44, 87, 0.8);
         color: var(--color-primary);
-        border: 2px solid var(--color-primary);
+        border: 1px solid var(--color-primary);
         border-radius: 0px;
         cursor: pointer;
 }
